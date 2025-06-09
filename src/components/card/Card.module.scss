@@ -1,0 +1,43 @@
+.card {
+  background-color: var(--very-dark-magenta);
+  color: var(--white);
+  padding: 40px 32px 35px;
+  border-radius: 8px;
+  text-align: left;
+
+  &__user {
+    display: flex;
+    margin-bottom: 23px;
+
+    &-image {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 23px;
+    }
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+
+      &-name {
+        font-weight: bold;
+        font-size: 17px;
+      }
+
+      &-status {
+        color: var(--soft-pink);
+        font-size: 17px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.3px;
+  }
+}

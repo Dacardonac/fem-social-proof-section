@@ -1,0 +1,32 @@
+.card {
+  width: 327px;
+  margin: 0 auto;
+  padding: 16px 0 15px 0;
+  background-color: var(--light-grayish-magenta);
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.stars {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  font-size: 17px;
+  font-weight: bold;
+  color: var(--very-dark-magenta);
+
+  &__container {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+  }
+
+  &__container-icon {
+    width: 16px;
+    height: 16px;
+  }
+}

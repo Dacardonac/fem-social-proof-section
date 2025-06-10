@@ -1,8 +1,8 @@
 import s from './Stars.module.scss';
 
-const Stars = ({ text }) => {
+const Stars = ({ text, className }) => {
   return (
-    <article className={s.card}>
+    <article className={`${s.card} ${className || ""}`}>
       <div className={s.stars}>
         <div className={s['stars__container']}>
           {[...Array(5)].map((_, i) => (

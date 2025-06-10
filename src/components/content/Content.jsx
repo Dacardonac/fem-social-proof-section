@@ -17,9 +17,9 @@ const Content = () => {
           </p>
         </div>
         <section className={c['content__stars']}>
-          <Stars text={'Rated 5 Stars in Reviews'} />
-          <Stars text={'Rated 5 Stars in Report Guru'} />
-          <Stars text={'Rated 5 Stars in BestTech'} />
+          <Stars className={c['content__stars-card']} text={'Rated 5 Stars in Reviews'} />
+          <Stars className={c['content__stars-card']} text={'Rated 5 Stars in Report Guru'} />
+          <Stars className={c['content__stars-card']} text={'Rated 5 Stars in BestTech'} />
         </section>
       </div>
       <section className={c['content__cards']}>

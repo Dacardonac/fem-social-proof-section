@@ -47,8 +47,8 @@ Mobile 🤳
 
 ### Links 📍
 
-- Solution URL: **[Frontend Mentor Solution 👨‍💻]()**
-- Live Site URL: **[Solution Deploy in Vercel 🚀]()**
+- Solution URL: **[Frontend Mentor Solution 👨‍💻](https://www.frontendmentor.io/solutions/social-proof-section-with-react-C3XGSs5HE7)**
+- Live Site URL: **[Solution Deploy in Vercel 🚀](https://fem-social-proof-section-topaz.vercel.app/)**
 
 ### How to Use the Project 💻
 

@@ -1,4 +1,6 @@
 .card {
+  width: 327px;
+  height: 248px;
   background-color: var(--very-dark-magenta);
   color: var(--white);
   padding: 40px 32px 35px;
@@ -39,5 +41,14 @@
     font-size: 17px;
     line-height: 22px;
     letter-spacing: -0.3px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 350px;
+    height: 234px;
+
+    &__text {
+      font-size: 17px;
+    }
   }
 }

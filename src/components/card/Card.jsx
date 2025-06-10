@@ -1,8 +1,8 @@
 import c from "./Card.module.scss";
 
-const Card = ({ name, img, text }) => {
+const Card = ({ name, img, text, className }) => {
   return (
-    <article className={c.card}>
+    <article className={`${c.card} ${className || ""}`}>
       <div className={c["card__user"]}>
         <img
           src={img}
